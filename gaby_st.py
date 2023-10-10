@@ -3,7 +3,7 @@ import streamlit as st
 import plotly.figure_factory as ff
 import plotly.express as px
 
-url="https://github.com/GabyMassaad1999/streamlit_app/blob/main/heart_failure_clinical_records_dataset.csv"
+url="https://raw.githubusercontent.com/GabyMassaad1999/streamlit_app/main/heart_failure_clinical_records_dataset.csv"
 
 # Load the dataset
 data = pd.read_csv(url)
