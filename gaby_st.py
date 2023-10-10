@@ -3,8 +3,10 @@ import streamlit as st
 import plotly.figure_factory as ff
 import plotly.express as px
 
+url="https://github.com/GabyMassaad1999/streamlit_app/blob/main/heart_failure_clinical_records_dataset.csv"
+
 # Load the dataset
-data = pd.read_csv('heart_failure_clinical_records_dataset.csv')
+data = pd.read_csv(url)
 
 # Sidebar with navigation options
 navigation = st.sidebar.radio("Navigation", ("Introduction", "First visualization", "Second visualization"))
