@@ -1,5 +1,5 @@
-plotly
-plotly.express
-plotly.figure_factory
-streamlit
 pandas
+plotly
+plotly-express
+plotly-figure-factory
+streamlit
